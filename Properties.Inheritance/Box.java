@@ -21,6 +21,13 @@ public class Box {
         this.height=height;
 
     }
-
+    Box(Box old ){
+        this.height=old.height;
+        this.width=old.width;
+        this.length=old.length;
+    }
+    public void information(){
+        System.out.println("Running the box");
+    }
     
 }
